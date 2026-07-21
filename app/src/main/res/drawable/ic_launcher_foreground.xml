@@ -3,7 +3,25 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <!-- Pata izquierda de la "A" -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M40,30 L48,30 L68,78 L59,78 L54.5,66 L33.5,66 L29,78 L20,78 Z M37,58 L51,58 L44,38 Z" />
+        android:pathData="M40,86 L48,22 L56,22 L50,86 Z" />
+    <!-- Pata derecha de la "A" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,22 L68,22 L76,86 L66,86 Z" />
+    <!-- Barra central de la "A" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,64 L72,64 L72,72 L44,72 Z" />
+    <!-- Cuerpo (bowl) de la "a" minúscula -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M74,70 L94,70 A10,10 0 1,1 74,70 Z M79,75 A5,5 0 1,0 89,75 A5,5 0 1,0 79,75 Z" />
+    <!-- Palo de la "a" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,60 L96,60 L96,88 L90,88 Z" />
 </vector>
